@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OpenGL.Game.CubeGeometry">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAIAAAAAAAAAAAAAASBAAAAAAAAAAA=</HashCode>
+      <FileName>CubeGeometry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenGL.Game.Geometry">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEEAAAAAIAAAAAAAAAAAAAASBEIAAgAAAAAA=</HashCode>
+      <FileName>Geometry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenGL.Game.LightData">
+    <Position X="4.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAAQAAAAAAAAAAEAAgAAAgAAAABAkQAAAAA=</HashCode>
+      <FileName>LightData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenGL.Game.PlaneGeometry">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAIAAAAAAAAAAAAAASBAAAAAAAAAAA=</HashCode>
+      <FileName>PlaneGeometry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpenGLGame.Game">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="SceneGraph" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OpenGLGame.GameObject">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAIAAAAAAQAACAAAAgAAAAAEAQAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="MeshRenderer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="OpenGLGame.MeshRenderer">
+    <Position X="9.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>MeshRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="OpenGL.Game.GeometryShapes">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Geometry.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
